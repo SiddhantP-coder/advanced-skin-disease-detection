@@ -1,0 +1,16 @@
+data:
+  train_path: "data/quick_test/train"
+  val_path: "data/quick_test/val"
+  img_size: [224, 224]
+  batch_size: 16
+
+model:
+  num_classes: 7
+  dropout: 0.2
+
+training:
+  epochs: 20
+  lr: 0.001
+  weight_decay: 1e-4
+
+device: "cuda"
